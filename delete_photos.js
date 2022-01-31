@@ -3,19 +3,21 @@
 // const maxImageCount = 5896
 const maxImageCount = "ALL_PHOTOS";
 
+// label on the button
+const BUTTON_LABEL = "Usuń";
+
 // Selector for Images and buttons
 const ELEMENT_SELECTORS = {
     checkboxClass: '.ckGgle',
-    deleteButton: 'button[aria-label="Delete"]',
     languageAgnosticDeleteButton: 'div[data-delete-origin] > button',
-    deleteButton: 'button[aria-label="Delete"]',
+    deleteButton: 'button[aria-label=' + BUTTON_LABEL + ']',
     confirmationButton: '#yDmH0d > div.llhEMd.iWO5td > div > div.g3VIld.V639qd.bvQPzd.oEOLpc.Up8vH.J9Nfi.A9Uzve.iWO5td > div.XfpsVe.J9fJmf > button.VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ.nCP5yc.kHssdc.HvOprf'
 }
 
 // Time Configuration (in milliseconds)
 const TIME_CONFIG = {
-    delete_cycle: 10000,
-    press_button_delay: 2000
+    delete_cycle: 2000,
+    press_button_delay: 100
 };
 
 const MAX_RETRIES = 10;
