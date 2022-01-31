@@ -8,7 +8,7 @@ const ELEMENT_SELECTORS = {
 // Time Configuration (in milliseconds)
 const TIME_CONFIG = {
     delete_cycle: 2000,
-    press_button_delay: 500
+    press_button_delay: 100
 };
 
 let albumCount = 0;
