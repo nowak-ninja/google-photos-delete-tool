@@ -1,7 +1,11 @@
 // Selector for Images and buttons
 const ELEMENT_SELECTORS = {
-    optionClass: '.IMQfZ .U26fgb',
-    deleteButton: '.JPdR6b.s2VtY.qjTEB .z80M1:last-child',
+    //optionClass: '.IMQfZ .U26fgb',
+    //optionClass: '#yDmH0d > c-wiz > div.h8plyb.HnzzId > c-wiz > div > div.otFYkc.B6Rt6d.zcLWac.eejsDc > div > c-wiz > div > div > div.C3Tghf.T5QJEc > a:nth-child(2) > div.x0QKAf > div > span > span > svg > path',
+    optionClass: 'div[aria-label="Więcej opcji"]',
+    //deleteButton: '.JPdR6b.s2VtY.qjTEB .z80M1:last-child',
+    //deleteButton: 'span[aria-label="Usuń album"]',
+    deleteButton: '.JPdR6b.s2VtY.qjTEB > div > div > span:nth-child(3) > div.uyYuVb.oJeWuf > div',
     confirmationButton: '#yDmH0d > div.llhEMd.iWO5td > div > div.g3VIld.V639qd.bvQPzd.Up8vH.J9Nfi.iWO5td > div.XfpsVe.J9fJmf button:last-child'
 }
 
