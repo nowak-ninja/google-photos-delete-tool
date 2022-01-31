@@ -27,7 +27,7 @@ function triggerMouseEvent (node, eventType) {
 
 function fakeClick(el)
 {
-	triggerMouseEvent (el, "mouseover");
+    triggerMouseEvent (el, "mouseover");
     triggerMouseEvent (el, "mousedown");
     triggerMouseEvent (el, "mouseup");
     triggerMouseEvent (el, "click");
@@ -46,8 +46,7 @@ let deleteTask = setInterval(() => {
 
     console.log("Remaining album(s) : ", options.length );
 
-    //options.forEach((option) => { option.click() });
-	options[0].click();
+    options[0].click();
 
     setTimeout(() => {
 
